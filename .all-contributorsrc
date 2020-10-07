@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "dhruvjha11",
+      "name": "Dhruv Jha",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/68009084?v=4",
+      "profile": "https://djcode.ga",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "TicTacToe",
+  "projectOwner": "dhruvjha11",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
