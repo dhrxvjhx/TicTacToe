@@ -1,0 +1,33 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "dhruvjha11",
+      "name": "Dhruv Jha",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/68009084?v=4",
+      "profile": "https://djcode.ga",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "PSNineteen",
+      "name": "PSNineteen",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/68509877?v=4",
+      "profile": "https://github.com/PSNineteen",
+      "contributions": [
+        "design"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "TicTacToe",
+  "projectOwner": "dhruvjha11",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
