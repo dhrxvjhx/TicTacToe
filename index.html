@@ -9,30 +9,47 @@
 </head>
 
 <body>
+    <div class="name">
+        <h1 class="title"> TicTacToe</h1>
+        <!-- <span class="slogan">"The perfect way to send an XOXO"</span> -->
+    </div>
 
-    <table>
-        <tr>
+    <table class="table">
+        <tr class="row1">
             <td class="cell" id="0"></td>
             <td class="cell" id="1"></td>
             <td class="cell" id="2"></td>
         </tr>
-        <tr>
+        <tr class=row2>
             <td class="cell" id="3"></td>
             <td class="cell" id="4"></td>
             <td class="cell" id="5"></td>
         </tr>
-        <tr>
+        <tr class="row3">
             <td class="cell" id="6"></td>
             <td class="cell" id="7"></td>
             <td class="cell" id="8"></td>
         </tr>
     </table>
-
+    <!-- I have added another addition to enhance the look of the tic-tac-toe. This is the difficulty level. -->
+    <div id="difficultylevel">
+        <h1>Difficulty Level</h1>
+        <label for="Difficulty Level"> Easy </label>
+        <input type="radio" name="Difficulty Level" id="Easy">
+        <br>
+        <label for="Difficulty Level"> Medium </label>
+        <input type="radio" name="Difficulty Level" id="Medium">
+        <br>
+        <label for="Difficulty Level"> Hard </label>
+        <input type="radio" name="Difficulty Level" id="Hard">
+    </div>
+    <!-- The difficulty level feature ends here. -->
     <div class="endgame">
         <div class="text"></div>
         <button onClick="startGame()">Replay</button>
     </div>
 </body>
 
-    <script src="script.js"></script>
+<script src="script.js"></script>
+
 </html>

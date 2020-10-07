@@ -1,5 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    color: white;
+    background-color: black;
+}
+.name{
+    margin: 1.00rem;
+    border: 2px solid black;
+    width: 25vw;
+    padding: 2rem;
+    padding-left: 1rem;
+    text-align: center;
+    
+}
+.title{
+color: cadetblue;
+font-size: 3rem;
+margin: 0px;
+padding: 0px;
+padding-bottom: 1rem;
+}
+.slogan{
+    font-style: italic;
+    color: red;
+    font-size: 1rem;
+}
+
 td {
-    border: 2px solid;
+    border: 0.25rem solid gray;
+    color: white;
     height: 100px;
     width: 100px;
     text-align: center;
@@ -33,12 +63,16 @@ table tr td:first-child {
 table tr td:last-child {
     border-right: 0;
 }
-
+#difficultylevel{
+width: 35vw;
+border: 2px solid black;
+margin-top: 20vh;
+}
 .endgame {
     display: none;
     width: 200px;
     top: 120px;
-    background-color: rgba(205,133,63,0.8);
+    background-color: gray;
     position: absolute;
     left: 50%;
     margin-left: -100px;
@@ -46,6 +80,6 @@ table tr td:last-child {
     padding-bottom: 50px;
     text-align: center;
     border-radius: 8px;
-    color: white;
+    color: black;
     font-size: 2em;
 }
