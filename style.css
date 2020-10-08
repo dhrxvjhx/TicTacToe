@@ -1,33 +1,96 @@
-*{
+@media screen and (max-width: 1192px ){
+    *{
+        display: none;
+
+    }
+}
+
+* {
     box-sizing: border-box;
 }
-body{
+
+body {
     color: white;
     background-color: black;
 }
-.name{
+
+.name {
     margin: 1.00rem;
     border: 2px solid black;
     width: 25vw;
     padding: 2rem;
     padding-left: 1rem;
     text-align: center;
-    
+    height: 50vh;
 }
-.title{
-color: cadetblue;
-font-size: 3rem;
-margin: 0px;
-padding: 0px;
-padding-bottom: 1rem;
+
+.name img {
+    width: 26vw;
+    height: 39vh;
+    margin-left: 2.5rem;
 }
-.slogan{
+
+.title {
+    color: cadetblue;
+    font-size: 3rem;
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 1rem;
+}
+
+.slogan {
     font-style: italic;
     color: red;
     font-size: 1rem;
 }
 
-td {
+.connect {
+    /* border: 2px solid orange; */
+    position: absolute;
+    right: 12%;
+    bottom: 68%;
+    font-size: 1.25rem;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.connect img {
+    background-color: white;
+    height: 20px;
+    width: 20px;
+}
+
+.connect a {
+    text-decoration: none;
+    color: white;
+}
+
+.connect a:hover {
+    color: cadetblue;
+}
+
+#myButton {
+    background-color: #555555;
+    /* Black */
+    border: none;
+    border-radius: 16px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    position: absolute;
+    right: 14%;
+    bottom: 56%;
+}
+
+#myButton:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+
+.table td {
     border: 0.25rem solid gray;
     color: white;
     height: 100px;
@@ -39,7 +102,7 @@ td {
     cursor: pointer;
 }
 
-table{
+.table {
     border-collapse: collapse;
     position: absolute;
     left: 50%;
@@ -47,27 +110,76 @@ table{
     top: 50px;
 }
 
-table tr:first-child td {
+.table tr:first-child td {
     border-top: 0;
 }
 
-table tr:last-child td {
-
+.table tr:last-child td {
     border-bottom: 0;
 }
 
-table tr td:first-child {
+.table tr td:first-child {
     border-left: 0;
 }
 
-table tr td:last-child {
+.table tr td:last-child {
     border-right: 0;
 }
-#difficultylevel{
-width: 35vw;
-border: 2px solid black;
-margin-top: 20vh;
+
+.navbar {
+    background-color: #8da7a8;
+    color: rgb(4, 27, 31);
 }
+
+#difficultylevel {
+    /* border: 5px solid white; */
+    display: inline-block;
+    width: 30vw;
+    height: 30vw;
+    padding: 2rem 2rem 2rem 3rem;
+    margin: 1rem;
+    opacity: 0.5;
+}
+
+#difficultylevel label {
+    font-size: 1.5rem;
+}
+
+#score {
+    position: absolute;
+    /* border: 5px solid cadetblue; */
+    padding: 3rem;
+    width: 35vw;
+    height: 30vw;
+    display: inline-block;
+    left: 64%;
+    opacity: 0.5;
+    text-align: center;
+}
+
+#score h1 {}
+
+.td {
+    box-sizing: content-box;
+    /* padding: 0.5rem; */
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.td1 {
+    padding-right: 5rem;
+    text-align: left;
+}
+
+#development {
+    background-image: url(page_construction.gif);
+    width: 22rem;
+    height: 24rem;
+    position: absolute;
+    left: 35%;
+    display: inline-block;
+}
+
 .endgame {
     display: none;
     width: 200px;
