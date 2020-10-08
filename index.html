@@ -3,8 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="keywords" content="TicTacToe,dhruv jha,dhruvjha,dhruv jha tic tac toe, github tic tac toe, djcode">
-    <meta name="description" content="A simple tic tac toe website using JS">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tic Tac Toe</title>
 
@@ -12,25 +11,81 @@
 </head>
 
 <body>
+    <div class="name">
+        <!-- <h1 class="title"> TicTacToe</h1> -->
+        <img src="TicTacToe_Logo.png" alt="TicTacToe_LogoF">
+        <!-- <span class="slogan">"The perfect way to send an XOXO"</span> -->
+    </div>
+    <!-- This div connects people to our other works. -->
+    <div class="connect">
+        <h2> Developers </h2>
 
-    <table>
-        <tr>
+        <a href="https://github.com/dhruvjha11" target="_blank"> Dhruv Jha </a>
+        <br>
+
+        <a href="https://github.com/PSNineteen" target="_blank">Pritish Saraf</a>
+    </div>
+    <button id="myButton" class="float-left submit-button">Visit us on <img
+            src="https://www.flaticon.com/svg/static/icons/svg/25/25231.svg" ,alt="github" , height="20px" ,
+            width="20px"></button>
+
+    <table class="table">
+        <tr class="row1">
             <td class="cell" id="0"></td>
             <td class="cell" id="1"></td>
             <td class="cell" id="2"></td>
         </tr>
-        <tr>
+        <tr class=row2>
             <td class="cell" id="3"></td>
             <td class="cell" id="4"></td>
             <td class="cell" id="5"></td>
         </tr>
-        <tr>
+        <tr class="row3">
             <td class="cell" id="6"></td>
             <td class="cell" id="7"></td>
             <td class="cell" id="8"></td>
         </tr>
     </table>
 
+    <!-- These are the stuff under development. -->
+    <!-- I have added another addition to enhance the look of the tic-tac-toe. This is the difficulty level. It specifies the difficulty level of computer. -->
+    <div class="navbar">
+        <div id="difficultylevel">
+            <h1 id="level">Difficulty Level</h1>
+            <label for="Difficulty Level"> Easy </label>
+            <input type="radio" name="Difficulty Level" id="Easy" selected>
+            <br>
+            <label for="Difficulty Level"> Medium </label>
+            <input type="radio" name="Difficulty Level" id="Medium">
+            <br>
+            <label for="Difficulty Level"> Hard </label>
+            <input type="radio" name="Difficulty Level" id="Hard">
+        </div>
+        <!-- The difficulty level feature ends here. -->
+        <!-- This is the div which tells the viewer that this tab is under development. -->
+
+        <div id="development">
+        </div>
+        <!-- This is the feature for viewing your score with the computer. -->
+        <div id="score">
+            <h1>Head to Head Score</h1>
+            <table id="data">
+                <tr>
+                    <td class="td1 td">You won</td>
+                    <td class="td">0</td>
+                </tr>
+                <tr>
+                    <td class="td1 td">Tie </td>
+                    <td class="td">0</td>
+                </tr>
+                <tr>
+                    <td class="td1 td">Computer Won</td>
+                    <td class="td">0</td>
+                </tr>
+            </table>
+        </div>
+        <!-- The score-viewing feature ends here. -->
+    </div>
     <div class="endgame">
         <div class="text"></div>
         <button onClick="startGame()">Replay</button>
@@ -39,5 +94,6 @@
     <button id="myButton" class="float-left submit-button" >Visit us on <img src="https://www.flaticon.com/svg/static/icons/svg/25/25231.svg",alt="github" , height="20px", width="20px"></button>
 </body>
 
-    <script src="script.js"></script>
+<script src="script.js"></script>
+
 </html>
