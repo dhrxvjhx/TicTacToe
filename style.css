@@ -171,8 +171,8 @@ body {
 
 #development {
     background-image: url(page_construction.gif);
-    width: 22rem;
-    height: 24rem;
+    width: 396px;
+    height: 432px;
     position: absolute;
     left: 35%;
     display: inline-block;
